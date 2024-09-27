@@ -214,10 +214,12 @@ textarea {
 
 @media only screen and (max-width: 56.25em) {
   .home-hero__socials {
+    margin: auto;
+    position: relative;
     display: flex;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    justify-content: center;
+    top: -10%;
+    width: 50%;
   }
 }
 
