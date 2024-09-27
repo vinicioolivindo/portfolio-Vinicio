@@ -11,16 +11,19 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
+
 @media only screen and (max-width: 75em) {
   html {
     font-size: 59%;
   }
 }
+
 @media only screen and (max-width: 56.25em) {
   html {
     font-size: 56%;
   }
 }
+
 @media only screen and (min-width: 112.5em) {
   html {
     font-size: 65%;
@@ -68,6 +71,7 @@ textarea {
   letter-spacing: 3px;
   text-align: center;
 }
+
 @media only screen and (max-width: 37.5em) {
   .heading-primary {
     font-size: 4.5rem;
@@ -83,6 +87,7 @@ textarea {
 .heading-sec__mb-med {
   margin-bottom: 9rem;
 }
+
 @media only screen and (max-width: 56.25em) {
   .heading-sec__mb-med {
     margin-bottom: 8rem;
@@ -99,6 +104,7 @@ textarea {
   margin-bottom: 3.5rem;
   position: relative;
 }
+
 .heading-sec__sub {
   display: block;
   text-align: center;
@@ -109,6 +115,7 @@ textarea {
   margin: auto;
   line-height: 1.6;
 }
+
 @media only screen and (max-width: 37.5em) {
   .heading-sec__sub {
     font-size: 1.8rem;
@@ -132,21 +139,26 @@ textarea {
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
   transition: transform 0.3s;
 }
+
 .btn:hover {
   transform: translateY(-3px);
 }
+
 .btn--bg {
   padding: 1.5rem 8rem;
   font-size: 2rem;
 }
+
 .btn--med {
   padding: 1.5rem 5rem;
   font-size: 1.6rem;
 }
+
 .btn--theme {
   background: #0062b9;
   color: #fff;
 }
+
 .btn--theme-inv {
   color: #0062b9;
   background: #fff;
@@ -158,6 +170,7 @@ textarea {
 .sec-pad {
   padding: 12rem 0;
 }
+
 @media only screen and (max-width: 56.25em) {
   .sec-pad {
     padding: 8rem 0;
@@ -180,11 +193,9 @@ textarea {
 
 .home-hero {
   color: #fff;
-  background: linear-gradient(
-      to right,
+  background: linear-gradient(to right,
       rgba(0, 98, 185, 0.8),
-      rgba(0, 98, 185, 0.8)
-    ),
+      rgba(0, 98, 185, 0.8)),
     url(../../assets/svg/common-bg.svg);
   background-position: center;
   height: 100vh;
@@ -192,6 +203,7 @@ textarea {
   max-height: 120rem;
   position: relative;
 }
+
 .home-hero__socials {
   position: absolute;
   top: 50%;
@@ -199,6 +211,7 @@ textarea {
   border-left: 2px solid #eee;
   transform: translateY(-50%);
 }
+
 @media only screen and (max-width: 56.25em) {
   .home-hero__socials {
     display: flex;
@@ -207,20 +220,24 @@ textarea {
     transform: translate(-50%, -50%);
   }
 }
+
 .home-hero__mouse-scroll-cont {
   position: absolute;
   bottom: 3%;
   left: 50%;
   transform: translateX(-50%);
 }
+
 @media only screen and (max-width: 37.5em) {
   .home-hero__mouse-scroll-cont {
     display: none;
   }
 }
+
 .home-hero__social {
   width: 5rem;
 }
+
 .home-hero__social-icon-link {
   width: 100%;
   display: block;
@@ -228,15 +245,19 @@ textarea {
   border-bottom: 2px solid #eee;
   transition: background 0.3s;
 }
+
 .home-hero__social-icon-link:hover {
   background: rgba(255, 255, 255, 0.1);
 }
+
 .home-hero__social-icon-link--bd-none {
   border-bottom: 0;
 }
+
 .home-hero__social-icon {
   width: 100%;
 }
+
 .home-hero__content {
   position: absolute;
   top: 50%;
@@ -245,6 +266,7 @@ textarea {
   max-width: 90rem;
   width: 92%;
 }
+
 @media only screen and (max-width: 37.5em) {
   .home-hero__content {
     padding: 19rem 0 13rem 0;
@@ -253,10 +275,12 @@ textarea {
     transform: translate(0, 0);
   }
 }
+
 .home-hero__info {
   margin: 3rem auto 0 auto;
   max-width: 80rem;
 }
+
 .home-hero__cta {
   margin-top: 5rem;
   text-align: center;
@@ -265,38 +289,37 @@ textarea {
 .about {
   background: #fafafa;
 }
+
 .about__content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10rem;
+  place-items: center;
 }
-@media only screen and (max-width: 56.25em) {
-  .about__content {
-    grid-template-columns: 1fr;
-    grid-gap: 8rem;
-  }
-}
+
 .about__content-title {
   font-weight: 700;
   font-size: 2.8rem;
   margin-bottom: 3rem;
 }
+
 @media only screen and (max-width: 37.5em) {
   .about__content-title {
     font-size: 2.4rem;
   }
 }
+
 .about__content-details-para {
   font-size: 1.8rem;
   color: grey;
-  max-width: 60rem;
+  max-width: 70rem;
   line-height: 1.7;
   margin-bottom: 1rem;
 }
+
 .about__content-details-para--hl {
   font-weight: 700;
   margin: 0 3px;
 }
+
 .about__content-details-para:last-child {
   margin-bottom: 4rem;
 }
@@ -309,18 +332,21 @@ textarea {
   background: #fff;
   box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
 }
+
 .header__content {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem 5rem;
 }
+
 @media only screen and (max-width: 37.5em) {
   .header__content {
     justify-content: center;
     padding: 1rem 5rem;
   }
 }
+
 .header__logo-container {
   display: flex;
   align-items: center;
@@ -328,9 +354,11 @@ textarea {
   color: #333;
   transition: color 0.3s;
 }
+
 .header__logo-container:hover {
   color: #0062b9;
 }
+
 .header__logo-img-cont {
   width: 5rem;
   height: 5rem;
@@ -339,6 +367,7 @@ textarea {
   margin-right: 1.5rem;
   background: #0062b9;
 }
+
 @media only screen and (max-width: 56.25em) {
   .header__logo-img-cont {
     width: 4.5rem;
@@ -346,6 +375,7 @@ textarea {
     margin-right: 1.2rem;
   }
 }
+
 .header__logo-img {
   width: 100%;
   height: 100%;
@@ -353,20 +383,24 @@ textarea {
   object-position: center;
   display: block;
 }
+
 .header__logo-sub {
   font-size: 1.8rem;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
 }
+
 .header__links {
   display: flex;
 }
+
 @media only screen and (max-width: 37.5em) {
   .header__links {
     display: none;
   }
 }
+
 .header__link {
   padding: 2.2rem 3rem;
   display: inline-block;
@@ -377,9 +411,11 @@ textarea {
   font-weight: 700;
   transition: color 0.3s;
 }
+
 .header__link:hover {
   color: #0062b9;
 }
+
 @media only screen and (max-width: 56.25em) {
   .header__link {
     padding: 3rem 1.8rem;
@@ -391,32 +427,40 @@ textarea {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
-  margin-bottom: 20px;
+  margin: 20px 0;
   justify-content: center;
 }
 
 .main-container .container-projetos .projeto {
-  max-width: 250px;
+  max-width: 300px;
   max-height: 500px;
   position: relative;
 }
 
-.main-container .container-projetos .projeto img {
+.main-container .container-projetos .projeto .banner {
+  border-radius: 1rem;
+  box-shadow: 0 1rem 2rem -1rem rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.main-container .container-projetos .projeto .banner img {
   width: 100%;
   height: 100%;
 }
 
 .main-container .projeto h3 {
-  background-color: #040203;
+  position: absolute;
+  background-color: #333;
   color: white;
   font-size: 2rem;
   width: 100%;
-  padding: 10px 20px 10px;
-  position: absolute;
+  padding: 17px 20px;
   bottom: 0;
+  border-radius: 0 0 1rem 1rem;
 }
 
 .main-container .projeto .informacoes-projeto {
+  border-radius: 1rem;
   background-color: #040203;
   color: white;
   position: absolute;
@@ -431,8 +475,8 @@ textarea {
 }
 
 .main-container .container-projetos .projeto:hover .informacoes-projeto {
-  opacity: 0.7;
-  background-color: #000;
+  opacity: 1;
+  background-color: #000000ad;
 }
 
 .mouse {
@@ -443,6 +487,7 @@ textarea {
   position: relative;
   overflow: hidden;
 }
+
 .mouse::before {
   content: "";
   width: 5px;
