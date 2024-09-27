@@ -325,8 +325,15 @@ textarea {
 }
 
 .buttons{
+  text-align: center;
   display: flex;
   gap: 1.5rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .buttons {
+    flex-direction: column;
+  }
 }
 
 .header {
